@@ -1,0 +1,25 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## Test Results
+test-results/
+allure-results/
+allure-history/
+coverage-report/
+TestResults/
+*.trx
+*.cobertura.xml
+
+## Secrets — NEVER commit API keys
+appsettings.local.json
+*.env
+.env
+
+## OS
+.DS_Store
+Thumbs.db
